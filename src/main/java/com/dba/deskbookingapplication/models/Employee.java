@@ -1,6 +1,7 @@
 package com.dba.deskbookingapplication.models;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -15,6 +16,7 @@ import javax.persistence.OneToOne;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Builder
 public class Employee extends BaseEntity {
 
     private String firstName;

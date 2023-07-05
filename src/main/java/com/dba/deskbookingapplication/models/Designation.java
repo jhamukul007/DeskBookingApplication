@@ -21,5 +21,5 @@ public class Designation extends BaseEntity {
 
     @Column
     @Enumerated(EnumType.STRING)
-    private DesignationTitle type;
+    private DesignationTitle title;
 }

@@ -1,4 +1,4 @@
-package com.dba.deskbookingapplication;
+package com.dba.deskbookingapplication.jobs;
 
 import com.dba.deskbookingapplication.enums.SeatStatus;
 import com.dba.deskbookingapplication.models.Seat;
